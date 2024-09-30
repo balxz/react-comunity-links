@@ -1,0 +1,142 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #fff;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  overflow-x: hidden;
+  color: #333;
+}
+
+* {
+  -webkit-tap-highlight-color: transparent;
+  font-weight: bold;
+}
+
+.container {
+  padding: 20px;
+  max-width: 600px;
+  margin: auto;
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 15px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+  position: relative;
+  z-index: 1;
+}
+
+.profile-pic {
+  width: 320px;
+  height: 180px;
+  margin: 20px auto 10px;
+  animation: bounce 0.1s infinite;
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-10px);
+  }
+  60% {
+    transform: translateY(-5px);
+  }
+}
+
+.title {
+  font-size: 26px;
+  font-weight: bold;
+  margin: 10px 0;
+  color: #5d5d5d;
+}
+
+.subtitle {
+  font-size: 16px;
+  color: #55555594;
+  margin-bottom: 20px;
+}
+
+.social-icons {
+  margin: 20px 0;
+}
+
+.social-icons a {
+  margin: 0 10px;
+  color: #5d5d5d;
+  font-size: 28px;
+  transition: color 0.3s;
+}
+
+.section {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px 0;
+  text-align: left;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.section-title {
+  font-size: 15px;
+  color: #3d3d3d97;
+  margin-bottom: 9px;
+}
+
+.link-item {
+  display: flex;
+  align-items: center;
+  padding: 12px 0;
+  border-bottom: 1px solid #eee;
+  transition: background 0.3s, transform 0.2s;
+  cursor: pointer;
+  text-decoration: none;
+  color: #333;
+}
+
+.link-item:last-child {
+  border-bottom: none;
+}
+
+.link-item:hover {
+  transform: translateX(5px);
+}
+
+.link-item i {
+  font-size: 26px;
+  margin-right: 10px;
+  color: #000;
+}
+
+.link-item span {
+  font-size: 18px;
+}
+
+@media (max-width: 768px) {
+  .title {
+    font-size: 22px;
+  }
+  .subtitle {
+    font-size: 14px;
+  }
+  .link-item span {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .profile-pic {
+    width: 80px;
+    height: 80px;
+  }
+  .title {
+    font-size: 20px;
+  }
+  .subtitle {
+    font-size: 12px;
+  }
+  .link-item span {
+    font-size: 14px;
+  }
+}
