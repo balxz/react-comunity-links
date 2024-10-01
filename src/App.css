@@ -29,7 +29,7 @@ body {
   width: 320px;
   height: 180px;
   margin: 20px auto 10px;
-  animation: bounce 0.1s infinite;
+  animation: bounce 1.7s infinite;
 }
 
 @keyframes bounce {
