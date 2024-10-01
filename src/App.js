@@ -44,7 +44,7 @@ function App() {
         </Section>
 
         <Section title="Community - Codings">
-          <LinkItem href="https://chat.whatsapp.com/ShiinaWabot2024/FW78A12iQIdK3snmkSKzQ3" icon="fab fa-whatsapp" text="Shiina Wabot Groups"/>
+          <LinkItem href="https://chat.whatsapp.com/FW78A12iQIdK3snmkSKzQ3" icon="fab fa-whatsapp" text="Shiina Wabot Groups"/>
           <LinkItem href="https://whatsapp.com/channel/0029VaSY7Lp8F2pCmQLKNn0g" icon="fab fa-whatsapp" text="Shiina Channels Community"/>
           <LinkItem href="https://hello.com" icon="fab fa-whatsapp" text="Gmn Team"/>
           <LinkItem href="https://chat.whatsapp.com/JbzMsezhCwUKdC6dnjwcIz" icon="fab fa-whatsapp" text="All Bot Community"/>
