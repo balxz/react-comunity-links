@@ -37,7 +37,7 @@ function App() {
         </div>
 
         <Section title="Social Dev Link">
-          <LinkItem href="https://me.balxzzy.xyz" icon="fa-brands fa-chrome" text="My Portfolio"/>
+          <LinkItem href="https://me.balxzzy.xyz" icon="fa-brands fa-edge" text="My Portfolio"/>
           <LinkItem href="https://api.balxzzy.xyz" icon="fa-regular fa-fire" text="Projects Rest API's"/>
           <LinkItem href="https://github.com/balxz" icon="fa-brands fa-github" text="Github"/>
           <LinkItem href="https://tiktok.com/@iqstore78" icon="fa-brands fa-tiktok" text="Tiktok"/>
